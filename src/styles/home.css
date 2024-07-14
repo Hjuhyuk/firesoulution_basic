@@ -1,0 +1,113 @@
+.Home119 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50vh; 
+  position: relative;
+}
+
+.Headlogo{
+  display: flex;
+  justify-content: left;
+  height: 5vh;
+}
+.textBelowImage {
+  text-align: center;
+  height: 100vh;
+  margin-top: 100px;
+}
+
+.Headmonitor{
+  width: 400px; 
+  height: 100px; 
+}
+
+.center img {
+width: 100vw;
+height: 50vh;
+margin-bottom: 10px;
+}
+
+.label {
+width: 100%; 
+max-width: 671px; 
+height: 50vh; 
+display: flex; 
+flex-direction: column; 
+justify-content: center;
+text-align: right; 
+margin: 0 auto;
+}
+
+.label .center-text-main,
+.label .center-text-sub {
+color: #ffffff;
+font-family: "Inter-Bold", Helvetica;
+width: 100%; 
+box-sizing: border-box;
+}
+
+.label .center-text-main {
+color: #ffffff;
+font-family: "Inter-Bold", Helvetica;
+font-size: 5vw;
+font-weight: 700;
+position: absolute;
+top: 50%;
+right: 0;
+transform: translate(0%, -100%);
+width: 671px;
+white-space: nowrap;
+}
+
+.label .center-text-sub {
+color: #ffffff;
+font-family: "Inter-Bold", Helvetica;
+font-size: 2vw;
+font-weight: 700;
+position: absolute;
+top: 75%; 
+right: 0;
+transform: translate(0%, -150%);
+width: 671px;
+white-space: nowrap;
+}
+
+
+@media only screen and (min-width: 600px) {
+.label .center-text-main {
+  font-size: 30px;
+}
+
+.label .center-text-sub {
+  font-size: 16px;
+}
+}
+
+@media only screen and (min-width: 768px) {
+.label .center-text-main {
+  font-size: 40px; 
+}
+
+.label .center-text-sub {
+  font-size: 18px;
+}
+}
+
+
+.ytb1{
+  width: 400px; 
+  height: 200px;
+  margin-left: 80px;
+}
+.ytb2{
+  width: 400px; 
+  height: 200px; 
+  margin-left: 50px;
+}
+
+.explain{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
